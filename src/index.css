@@ -1,13 +1,48 @@
-body {
+body{
+  background-color: color-mix(in srgb, red 5%, blue 10%);
+  font-size: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://www.shutterstock.com/shutterstock/photos/1633786861/display_1500/stock-vector-colorful-rock-paper-scissors-hand-game-vector-background-pattern-1633786861.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.heading
+{
+  color: color-mix(in lab, pink 90%, black 100%);
+}
+.result
+{
+  color: red;
+}
+.comp
+{
+  color: blue;
+}
+.user
+{
+  color: 	#01016f;
+}
+.image
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+}
+button {
+  background-color: #3498db; 
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button:hover {
+  background-color: #2980b9; 
 }
